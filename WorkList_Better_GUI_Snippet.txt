@@ -1,5 +1,3 @@
-javascript:(async()=>{const TARGET='https://pwr.nsmcloud.com.au/m/';if(!location.href.startsWith(TARGET)){location.href=TARGET;await new Promise(r=>setTimeout(r,4000));}const s=document.createElement('script');s.type='text/javascript';s.textContent=`(() => {
-'use strict';
 (() => {
   'use strict';
 
@@ -1282,4 +1280,3 @@ javascript:(async()=>{const TARGET='https://pwr.nsmcloud.com.au/m/';if(!location
 ``
 
 })();
-})();`;document.documentElement.appendChild(s);})();
